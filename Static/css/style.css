@@ -500,6 +500,8 @@ header .head {
     color: white;
     text-align: left;
     z-index: 999;
+    font:   normal 3.625em/0.9 "league-gothic-1", "league-gothic-2",
+            "League Gothic", "Arial Narrow", Arial, sans-serif;
 }
 
 @media screen and (max-width: 768px) {
