@@ -14,7 +14,7 @@ body {
                 url("../pics/body.gif") repeat;
 }
 
-.page {
+#page {
     margin: 35px auto;
     width: 90%;
 }
@@ -49,8 +49,7 @@ body {
  }*/
 
 .container960 {
-    /* width: 960px; */
-    width: 90%;
+    width: 90%; /*960px*/
     margin: 0 auto;
 }
 
@@ -99,13 +98,13 @@ object {
 header .head {
     display: block;
     position: relative;
-    min-height: 170px;
+    min-height: 100px;
     text-align: left;
     /*margin-top: 30px;*/
 }
 
 .head .logo-image, header .head .menu {
-    position: absolute;
+    position: relative;
     display: inline-block;
     left: 0px;
     top: 0px;
@@ -154,7 +153,7 @@ header .head {
     display: block;
     z-index: 80;
     float: left;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 100%;
     min-height: 50px;
     background: url("../pics/nav-bg.jpg") repeat;
