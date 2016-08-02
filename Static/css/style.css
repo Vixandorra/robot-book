@@ -66,8 +66,8 @@ object {
 }
 
 @font-face {
-    font: League Gothic;
-    
+    font-family: League Gothic;
+    src: url("../fonts/OT-tt/LeagueGothicCyrillic.ttf");
 }
 
 
