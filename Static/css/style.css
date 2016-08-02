@@ -99,7 +99,6 @@ header .head {
     display: block;
     position: relative;
     min-height: 100px;
-    text-align: left;
     /*margin-top: 30px;*/
 }
 
@@ -111,12 +110,12 @@ header .head {
 }
 
 .head .logo-image {
-    display: block;
+    display: inline-block;
     z-index: 100;
     float: left;
     text-align: center;
-    width: 18.8888889%; /* */
-    min-height: 120px;
+    width: 18.8888889%; /* 170px */
+    min-height: 100px;
     background: url("../pics/logo-bg.jpg")  no-repeat;
     background-size: cover;
 }
@@ -150,14 +149,17 @@ header .head {
 }
 
 .head .menu {
-    display: block;
+    display: inline-block;
     z-index: 80;
     float: left;
-    /* margin-top: 30px; */
+    margin-top: -70px;
     width: 100%;
-    min-height: 30px;
+    min-height: 50px;
     background: url("../pics/nav-bg.jpg") repeat;
 }
+
+
+
 .head .menu::after {
     content: " ";
     width: 100%;
@@ -198,18 +200,28 @@ header .head {
 }
 
 @media screen and (max-width: 768px) {
+    .head .menu {
+        display: block;
+        float: left;
+        margin: 0 auto;
+        width: 100%;
+        min-height: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .head .menu ul {
-        width: 70%;
-        margin-left: 15%;
-        margin-right: 15%;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
 @media screen and (max-width: 960px) {
     .head .menu ul {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
         /* column-count: 2; */
     }
 }
@@ -234,7 +246,7 @@ main {
 .article {
     position: relative;
     display: inline-block;
-    min-width: 49%;
+    /* min-width: 49%; */
     height: 980px;
     float: left;
     z-index: 120;
@@ -243,6 +255,13 @@ main {
     background: white;
     text-align: left;
     margin-bottom: 40px;
+}
+
+@media screen and (min-width: 960px) {
+    .article {
+        width: 45%;
+        margin-right: 1%;
+    }
 }
 
 .article::after {
@@ -543,6 +562,13 @@ main {
     background-color: white;
     overflow: hidden;
     z-index: 600;
+}
+
+@media screen and (min-width: 960px) {
+    .slide-block {
+        width: 45%;
+        margin-left: 1%;
+    }
 }
 
 .slide-text h1 {
