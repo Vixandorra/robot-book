@@ -237,7 +237,6 @@ header .head {
 .article  .head h1 {
     width: 89.33333333%; /* 804 / 900 */
     padding: 1.60em 5.33333333%;
-    color: white;
 }
 
 .article  .head p {
@@ -334,8 +333,6 @@ header .head {
     width: 48.7341772%;
     background: #C52618;
     border-radius: 5px;
-    margin-bottom: 10px;
-    margin-left: 10px;
 
  }
 
