@@ -65,6 +65,11 @@ object {
     max-width: 100%;
 }
 
+@font-face {
+    font: League Gothic;
+    
+}
+
 
 /* Header */
 
@@ -497,7 +502,7 @@ main {
 .slide-text h1 {
     position: relative;
     float: left;
-    width: 100%;
+    width: 60%;
     background-color: black;
     min-height: 30px;
     padding: 10px 50px 10px 20px;
