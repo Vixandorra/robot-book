@@ -722,12 +722,16 @@ main {
     float: left;
     width: 50%;
     background: black;
-    min-height: 30px;
+    min-height: 25px;
     color: white;
-    padding: 10px;
-    margin-left: -4.444444%;
+    margin-left: -1.66666667%; /* 15px / 900px */
     text-align: left;
     font-size: 4.0625em;
+}
+
+.gallery .gallery-block-1 .head-block-1 h1,
+.gallery .gallery-block-2 .head-block-2 h1 {
+    margin-left: 3.33333333%; /* 15 / 450 */
 }
 
 .gallery .gallery-block-1 .gallery-list-1,
