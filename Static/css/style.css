@@ -646,8 +646,15 @@ main {
     margin-top: 40px;
 }
 
+.gallery .font {
+    font-family:  "league-gothic-1",
+    "league-gothic-2", "League Gothic",
+    "Arial Narrow", Arial, sans-serif;
+}
+
 .gallery .gallery-head {
     position: relative;
+    font-size: 3.625em; /* 58px */
     min-height: 60px;
     background: url("../pics/nav-bg.jpg");
     text-align: left;
@@ -674,13 +681,13 @@ main {
     -7px -7px 0 #5E140D,    -8px -8px 0 #5E140D,
     -9px -9px 0 #5E140D,    -10px -10px 0 #5E140D;
 
-    opacity: 0.2 !important;
+    opacity: 0.2;
 }
 
 .gallery .gallery-head h3, .gallery .gallery-head h1 {
     display: inline-block;
     color: white;
-    margin: 25px;
+    margin: 25px; /**/
 }
 
 .gallery .gallery-head h1 a {
@@ -688,12 +695,14 @@ main {
 }
 
 .gallery .gallery-head h3 {
-    font-size: 13px;
+     /*font-size: 35px;*/
+    font-size: 0.60345em;
     margin-right: 0px;
 }
 
 .gallery .gallery-head h1 {
-    font-size: 25px;
+    /*font-size: 58px;*/
+    font-size: 100%;
     margin-left: 0px;
 }
 
@@ -716,8 +725,9 @@ main {
     min-height: 30px;
     color: white;
     padding: 10px;
+    margin-left: -4.444444%;
     text-align: left;
-    font-size: 25px;
+    font-size: 4.0625em;
 }
 
 .gallery .gallery-block-1 .gallery-list-1,
