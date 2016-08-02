@@ -207,14 +207,13 @@ header .head {
         width: 100%;
         min-height: 50px;
     }
-}
 
-@media screen and (max-width: 768px) {
     .head .menu ul {
         width: 60%;
         margin-left: 20%;
         margin-right: 20%;
     }
+
 }
 
 @media screen and (max-width: 960px) {
@@ -247,7 +246,7 @@ main {
     position: relative;
     display: inline-block;
     /* min-width: 49%; */
-    height: 980px;
+    min-height: 980px;
     float: left;
     z-index: 120;
     /* margin-top: 80px;
@@ -259,8 +258,9 @@ main {
 
 @media screen and (min-width: 960px) {
     .article {
-        width: 45%;
+        width: 46%;
         margin-right: 1%;
+        margin-top: 2%;
     }
 }
 
@@ -352,6 +352,13 @@ main {
     position: relative;
     float: left;
     width: 62.88888899%; /* 566 / 900 */
+}
+
+@media screen and (min-width: 960px) {
+    .article .article-content article {
+        position: relative;
+        width: 100%;
+    }
 }
 
 .article .article-content article .head-2 {
@@ -491,9 +498,25 @@ main {
     float: right;
     width: 36.7777778%;
     height: 100%;
-    background: url("../pics/noise-gray.gif") repeat;
+    /* background: url("../pics/noise-gray.gif") repeat; */
     background-size: contain;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+    .article .article-content .entries {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background: url("../pics/noise-gray.gif") repeat;
+    }
+    .article .article-content .entries ol {
+        column-count: 2;
+    }
+    .article .article-content .entries .entries-content {
+        width: 89.8%;
+        margin: 0;
+    }
 }
 
 .article .article-content .entries .entries-content {
@@ -572,7 +595,7 @@ main {
 @media screen and (min-width: 960px) {
     .slide-block {
         float: right;
-        width: 45%;
+        width: 46%;
         margin-right: 3%;
     }
 }
@@ -720,9 +743,12 @@ main {
 
 @media screen and (min-width: 960px) {
     .gallery {
+        position: relative;
+        display: inline-block;
         float: right;
         width: 45%;
         margin-right: 3%;
+        vertical-align: baseline;
     }
 }
 
