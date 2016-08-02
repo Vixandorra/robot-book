@@ -362,7 +362,8 @@ main {
 }
 
 .article .article-content article .head-2 {
-    min-height: 3%;
+    min-height: 20px;
+    font-size: 1.2em;
 }
 
 .article .article-content article .date {
@@ -510,19 +511,20 @@ main {
         height: auto;
         background: url("../pics/noise-gray.gif") repeat;
     }
-    .article .article-content .entries ol {
-        column-count: 2;
-    }
-    .article .article-content .entries .entries-content {
-        width: 89.8%;
-        margin: 0;
-    }
+
 }
 
 .article .article-content .entries .entries-content {
     margin: 40px 14.5015106%; /* 48 / 331 */
     width: 69.7885196%; /* 231 / 331 */
     height: auto;
+}
+
+@media screen and (min-width: 960px) {
+    .article .article-content .entries .entries-content {
+        width: 82%;
+        margin: 40px 9%;
+    }
 }
 
 .article .article-content .entries h1 {
@@ -538,6 +540,12 @@ main {
     /*column-count: 2;*/
 
     /**/list-style: url(../pics/lines.png) inside;
+}
+
+@media screen and (min-width: 960px) {
+    .article .article-content .entries ol {
+        column-count: 2;
+    }
 }
 
 .article .article-content .entries ol li {
@@ -599,6 +607,7 @@ main {
         margin-right: 3%;
     }
 }
+
 
 .slide-text h1 {
     position: relative;
@@ -833,6 +842,14 @@ main {
     margin-left: -1.66666667%; /* 15px / 900px */
     text-align: left;
     font-size: 4.0625em;
+}
+
+@media screen and (min-width: 960px) {
+    .gallery .gallery-block-1 .head-block-1,
+    .gallery .gallery-block-2 .head-block-2 {
+        margin-left: 0px;
+        font-size: 2.5em; /* 40px */
+    }
 }
 
 .gallery .gallery-block-1 .head-block-1 h1,
