@@ -356,10 +356,7 @@ main {
 
 .article .article-content article .head-2 {
     min-height: 3%;
-
 }
-
-
 
 .article .article-content article .date {
     position: relative;
@@ -377,6 +374,14 @@ main {
     font-family: "league-gothic-1",
     "league-gothic-2", "League Gothic",
     "Arial Narrow", Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .article .article-content article .date {
+        position: relative;
+        margin: 1.111111111%;
+        float: right;
+    }
 }
 
 .article .article-content article .date time .big-text,
@@ -566,8 +571,9 @@ main {
 
 @media screen and (min-width: 960px) {
     .slide-block {
+        float: right;
         width: 45%;
-        margin-left: 1%;
+        margin-right: 3%;
     }
 }
 
@@ -710,6 +716,14 @@ main {
     float: right;
     background: white;
     margin-top: 40px;
+}
+
+@media screen and (min-width: 960px) {
+    .gallery {
+        float: right;
+        width: 45%;
+        margin-right: 3%;
+    }
 }
 
 .gallery .font {
