@@ -16,6 +16,7 @@ body {
 
 .full-container {
     width: 100%;
+
 }
 
 /*.container {
@@ -72,6 +73,7 @@ header .head {
     position: relative;
     min-height: 170px;
     text-align: left;
+    margin-top: 30px;
 }
 
 .head .logo-image, header .head .menu {
@@ -86,8 +88,8 @@ header .head {
     z-index: 100;
     float: left;
     text-align: center;
-    width: 170px;
-    min-height: 200px;
+    width: 18.8888889%; /* */
+    min-height: 120px;
     background: url("../pics/logo-bg.jpg")  no-repeat;
     background-size: cover;
 }
@@ -114,20 +116,19 @@ header .head {
     opacity: 0.5;
 }
 
-.head .logo-image img {
-    margin-top: 40%;
+.head .logo-image a img {
+    width: 70.5882353%;
+    height: auto;
+    margin-top: 10%;
 }
 
 .head .menu {
     display: block;
     z-index: 80;
     float: left;
-    margin-top: 55px;
-    position: absolute;
-    top: 55px;
-    left: 0px;
+    margin-top: 30px;
     width: 100%;
-    min-height: 80px;
+    min-height: 50px;
     background: url("../pics/nav-bg.jpg") repeat;
 }
 .head .menu::after {
@@ -156,7 +157,7 @@ header .head {
 
 .head .menu ul li {
     display: inline-block;
-    padding: 35px;
+    padding: 25px;
     text-align: right;
     vertical-align: middle;
     font-size: 0.75em; /* 12px / 16px */
@@ -210,6 +211,8 @@ header .head {
     opacity: 0.2;
 }
 
+
+
 .article  main p, .article main h1  {
     padding: 10px;
     margin-left: 5px;
@@ -223,11 +226,7 @@ header .head {
     height: 8.2%;
 }
 
-.article  .head h1, .article  .head h3 {
-    display: inline-block;
-    float: left;
-    color: white;
-}
+
 
 .article  .head h1 a {
     color: inherit;
@@ -237,7 +236,8 @@ header .head {
 
 .article  .head h1 {
     width: 89.33333333%; /* 804 / 900 */
-    padding: 1.73em 5.33333333%;
+    padding: 1.60em 5.33333333%;
+    color: white;
 }
 
 .article  .head p {
@@ -284,15 +284,17 @@ header .head {
 }
 
 .article .article-content article .head-2 {
-    min-height: 20px;
+    min-height: 3%;
 }
+
+
 
 .article .article-content article .date {
     position: relative;
     display: inline-block;
     float: left;
     color: white;
-    margin-top: 10px;
+    margin-top: 1.111111111%;
     margin-left: -5.3004%; /* 30 / 566px */
     text-align: center;
     height: 70px;
@@ -310,13 +312,13 @@ header .head {
 }
 
 .article .article-content article .date time .big-text {
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 2.1875em;
+
 }
 
 .article .article-content article .date time .small-text {
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 0.8125em;
+
 }
 
 .article .article-content article .head-2 h3 {
@@ -330,6 +332,21 @@ header .head {
     display: inline-block;
     float: right;
     width: 48.7341772%;
+    background: #C52618;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+ }
+
+.article .article-content .figure p {
+    margin: 5px;
+    overflow: hidden;
+}
+
+.article .article-content .figure p img {
+    display: block;
+    width: auto;
 }
 
 .article .article-content article .body-article {
@@ -468,8 +485,7 @@ header .head {
 .slide-block {
     position: relative;
     display: inline-block;
-    width: 49%;
-    float: right;
+    width: 70%;
     min-height: 100px;
     background-color: white;
     overflow: hidden;
@@ -489,10 +505,18 @@ header .head {
     z-index: 999;
 }
 
+@media screen and (max-width: 768px) {
+    .slide-text h1 {
+        font: normal 1.5em Calibri, Candara,
+        Segoe, "Segoe UI", Optima, Arial,
+        Helvetica, sans-serif; /* 24px / 16px */
+    }
+}
+
  .slide-text {
      position: relative;
-     display: inline-block;
-     width: 49%;
+     /*display: inline-block;*/
+     width: 100%;
      float: left;
      min-height: 200px;
      background-color: white;
@@ -600,7 +624,6 @@ header .head {
 .gallery {
     position: relative;
     display: block;
-    width: 49%;
     min-height: 450px;
     float: right;
     background: white;
