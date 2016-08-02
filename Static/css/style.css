@@ -354,7 +354,7 @@ main {
     width: 62.88888899%; /* 566 / 900 */
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px), screen and (max-width: 768px) {
     .article .article-content article {
         position: relative;
         width: 100%;
@@ -504,7 +504,7 @@ main {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px), screen and (max-width: 768px) {
     .article .article-content .entries {
         position: relative;
         width: 100%;
@@ -520,7 +520,7 @@ main {
     height: auto;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px), screen and (max-width: 768px) {
     .article .article-content .entries .entries-content {
         width: 82%;
         margin: 40px 9%;
@@ -542,7 +542,7 @@ main {
     /**/list-style: url(../pics/lines.png) inside;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px), screen and (max-width: 768px) {
     .article .article-content .entries ol {
         column-count: 2;
     }
@@ -758,6 +758,7 @@ main {
         width: 45%;
         margin-right: 3%;
         vertical-align: baseline;
+        clear: right;
     }
 }
 
@@ -802,7 +803,7 @@ main {
 .gallery .gallery-head h3, .gallery .gallery-head h1 {
     display: inline-block;
     color: white;
-    margin: 25px; /**/
+    margin: 1.66666667%; /**/
 }
 
 .gallery .gallery-head h1 a {
@@ -820,6 +821,14 @@ main {
     font-size: 100%;
     margin-left: 0px;
 }
+
+@media screen and (min-width: 960px) {
+    .gallery .gallery-head h1 {
+        margin-left: 0px;
+        font-size: 0.8em; /* 40px */
+    }
+}
+
 
 .gallery .gallery-block-1,
 .gallery .gallery-block-2 {
