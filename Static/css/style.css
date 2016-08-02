@@ -155,7 +155,7 @@ header .head {
     float: left;
     /* margin-top: 30px; */
     width: 100%;
-    min-height: 50px;
+    min-height: 30px;
     background: url("../pics/nav-bg.jpg") repeat;
 }
 .head .menu::after {
@@ -182,16 +182,36 @@ header .head {
     opacity: 0.2;
 }
 
+.head .menu ul {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
 .head .menu ul li {
     display: inline-block;
-    padding: 25px;
+    padding: 0.8em;
     text-align: right;
     vertical-align: middle;
     font-size: 0.75em; /* 12px / 16px */
 }
 
-.head .menu ul li:first-child {
-    padding-left: 200px;
+@media screen and (max-width: 768px) {
+    .head .menu ul {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .head .menu ul {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        /* column-count: 2; */
+    }
 }
 
 .head .menu ul li a {
