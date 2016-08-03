@@ -27,14 +27,6 @@ body {
     }
 
 }
-
-@media screen and (max-width: 768px) {
-    head, .article, .slides, .gallery {
-        margin: 0 0 30px;
-        width: auto;
-    }
-}
-
 .full-container {
     width: 100%;
 }
@@ -907,6 +899,12 @@ main {
 
 
 
+@media screen and (max-width: 768px) {
+     header, .article, .slide-block, .gallery {
+        margin: 0 0 30px;
+        width: auto;
+    }
+}
 
 
 a:hover {
