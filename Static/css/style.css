@@ -917,6 +917,14 @@ main {
         width: auto;
     }
 }
+@media screen and (min-width: 960px) {
+    #page .head, .slide-block, .gallery {
+        margin: 0 3% 30px auto;
+    }
+
+
+}
+
 
 
 a:hover {
