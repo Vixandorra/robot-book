@@ -900,7 +900,7 @@ main {
 
 
 @media screen and (max-width: 768px) {
-     header, .article, .slide-block, .gallery {
+     .head, .article, .slide-block, .gallery {
         margin: 0 0 30px;
         width: auto;
     }
