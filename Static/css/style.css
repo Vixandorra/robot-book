@@ -140,6 +140,18 @@ header .head {
     margin-top: 10%;
 }
 
+@media screen and (max-width: 768px) {
+    .head {
+        height: 150px;
+    }
+
+    .head .logo-image  {
+        display: block;
+        margin: 0  40.555555556% 3.33333333%;
+        min-height: 50px
+    }
+}
+
 .head .menu {
     display: inline-block;
     z-index: 80;
@@ -201,21 +213,21 @@ header .head {
     }
 
     .head .menu ul {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-
-}
-
-@media screen and (max-width: 960px) {
-    .head .menu ul {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        /* column-count: 2; */
+        column-count: 2;
     }
+
+    .head .menu ul li {
+        display: block;
+        text-align: center;
+        padding: 0.3em;
+    }
+
 }
+
+
 
 .head .menu ul li a {
     color: #EECBA5;
