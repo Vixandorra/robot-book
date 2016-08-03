@@ -759,7 +759,7 @@ main {
         position: relative;
         display: inline-block;
         float: right;
-        width: 45%;
+        width: 46%;
         margin-right: 3%;
         vertical-align: baseline;
         clear: right;
@@ -911,19 +911,19 @@ main {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
      .head, .article, .slide-block, .gallery {
         margin: 0 0 30px;
         width: auto;
     }
 }
 @media screen and (min-width: 960px) {
-    #page .head, .slide-block, .gallery {
+    #page .slide-block, .gallery {
         margin: 0 3% 30px auto;
     }
-
-
 }
+
+@media screen and (min-width: 960px)
 
 
 
