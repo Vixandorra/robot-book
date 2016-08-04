@@ -301,7 +301,7 @@ main {
     position: relative;
     background: url("../pics/blog-title-bg.jpg") no-repeat;
     height: 8.2%;
-    color: white;
+
     font-family: "league-gothic-1", "league-gothic-2", "League Gothic", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -311,11 +311,13 @@ main {
     color: inherit;
     display: inline-block;
     font-size: 1.5625em;/* 25px / 16px */
+    color: white;
 }
 
 .article  .head-article h1 {
     width: 89.33333333%; /* 804 / 900 */
     padding: 1.60em 5.33333333%;
+    color: #EECBA5;
 }
 
 .article  .head-article p {
@@ -403,7 +405,7 @@ main {
 .article .article-content article .date time .small-text {
     opacity: 1;
     text-shadow: 1px 1px 2px black;
-    letter-spacing: 0.08em;
+    /*letter-spacing: 0.08em;*/
 }
 
 .article .article-content article .date time .big-text {
@@ -412,7 +414,7 @@ main {
 }
 
 .article .article-content article .date time .small-text {
-    font-size: 0.95em;
+    font-size: 0.70em;
 }
 
 .article .article-content article .head-2 h3 {
@@ -954,6 +956,18 @@ main {
 @media screen and (min-width: 1600px) {
     #page {
         width: 65%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    #page {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    #page {
+        width: 55%;
     }
 }
 
