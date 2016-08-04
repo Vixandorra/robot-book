@@ -135,16 +135,20 @@ header .head {
 }
 
 @media screen and (max-width: 768px) {
-    .head {
-        height: 150px;
-    }
 
     .head .logo-image  {
         display: block;
         margin: 0  40.555555556% 3.33333333%;
-        min-height: 50px
+        height: 200px
     }
 }
+
+@media screen and (min-width: 960px) {
+    .head {
+        min-height: 150px;
+    }
+}
+
 
 .head .menu {
     display: inline-block;
@@ -210,6 +214,13 @@ header .head {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 520px) {
+    .head .menu ul {
         column-count: 2;
     }
 
@@ -218,9 +229,7 @@ header .head {
         text-align: center;
         padding: 0.3em;
     }
-
 }
-
 
 
 .head .menu ul li a {
@@ -256,8 +265,8 @@ main {
 
 @media screen and (min-width: 960px) {
     .article {
-        width: 46%;
-        margin-right: 1%;
+        width: 46.354167%;
+        margin-right: 0.0520833%;
         margin-top: 2%;
     }
 }
@@ -601,7 +610,7 @@ main {
 @media screen and (min-width: 960px) {
     .slide-block {
         float: right;
-        width: 46%;
+        width: 46.354167%; /* 445/960 */
         margin-right: 3%;
     }
 }
@@ -923,7 +932,17 @@ main {
     }
 }
 
+@media screen and (min-width: 960px) {
+    #page {
+        margin-top: 0;
+    }
+}
 
+@media screen and (min-width: 1100px) {
+    #page {
+        width: 80%;
+    }
+}
 
 a:hover {
     cursor: pointer;
