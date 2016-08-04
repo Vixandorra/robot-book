@@ -139,7 +139,7 @@ header .head {
     .head .logo-image  {
         display: block;
         margin: 0  40.555555556% 3.33333333%;
-        height: 200px
+        height: 100px;
     }
 }
 
@@ -938,11 +938,25 @@ main {
     }
 }
 
+
 @media screen and (min-width: 1100px) {
     #page {
         width: 80%;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    #page {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #page {
+        width: 65%;
+    }
+}
+
 
 a:hover {
     cursor: pointer;
