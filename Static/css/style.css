@@ -947,6 +947,12 @@ main {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    #page {
+        width: 75%;
+    }
+}
+
 @media screen and (min-width: 1400px) {
     #page {
         width: 70%;
