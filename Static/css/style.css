@@ -931,33 +931,34 @@ main {
     position: relative;
     float: left;
     text-align: center;
-    width: 93.75%;
-    margin: 3.125%;
+    width: 90%;
+    margin: 5%;
 }
 
 .gallery .gallery-block-1 .gallery-list-1 li,
 .gallery .gallery-block-2 .gallery-list-2 li {
-    width: 20.8888888889%;
+    width: 21.8%;
     height: auto;
     display: inline-block;
     float: left;
     border: 1px solid white;
     box-shadow: 0 0 5px 1px lightgray;
-    padding: 1%;
+
     background: #fffeee;
 }
 
 
 .gallery .gallery-block-1 .gallery-list-1 li:not(:last-child),
 .gallery .gallery-block-2 .gallery-list-2 li:not(:last-child) {
-    margin-right: 1.66666667%;
+    margin-right: 2.666667%; /* 20px / 960 */
 }
 
 
 .gallery .gallery-block-1 .gallery-list-1 img,
 .gallery .gallery-block-2 .gallery-list-2 img {
-    width: 95%;
+    width: 90%;
     height: auto;
+    margin: 1%;
     background: lightgray;
     sborder: 1px solid white;
 }
