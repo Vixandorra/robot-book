@@ -902,7 +902,7 @@ main {
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
      .head, .article, .slide-block, .gallery {
         margin: 0 0 30px;
         width: auto;
