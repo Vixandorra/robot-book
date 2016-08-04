@@ -19,14 +19,8 @@ body {
     width: 90%;
 }
 
-@media screen and (max-width: 768px) {
-    #page {
-        position: relative;
-        margin: 20px;
-        width: auto;
-    }
 
-}
+
 .full-container {
     width: 100%;
 }
@@ -292,7 +286,7 @@ main {
     margin-left: 5px;
 }
 
-.article .head {
+.article .head-article {
     width: 100%;
     display: block;
     position: relative;
@@ -304,23 +298,23 @@ main {
 
 
 
-.article  .head h1 a {
+.article  .head-article h1 a {
     color: inherit;
     display: inline-block;
     font-size: 1.5625em;/* 25px / 16px */
 }
 
-.article  .head h1 {
+.article  .head-article h1 {
     width: 89.33333333%; /* 804 / 900 */
     padding: 1.60em 5.33333333%;
 }
 
-.article  .head p {
+.article  .head-article p {
     display: inline-block;
     font-size: 1.8125em; /* 13px / 16px */
 }
 
-.article  .head::after {
+.article  .head-article::after {
     content: " ";
     width: 100%;
     height: 100%;
@@ -760,7 +754,6 @@ main {
         display: inline-block;
         float: right;
         width: 46%;
-        margin-right: 3%;
         vertical-align: baseline;
         clear: right;
     }
@@ -909,8 +902,6 @@ main {
 }
 
 
-
-
 @media screen and (max-width: 960px) {
      .head, .article, .slide-block, .gallery {
         margin: 0 0 30px;
@@ -918,12 +909,19 @@ main {
     }
 }
 @media screen and (min-width: 960px) {
-    #page .slide-block, .gallery {
+
+    .slide-block, .gallery {
         margin: 0 3% 30px auto;
     }
 }
 
-@media screen and (min-width: 960px)
+@media screen and (max-width: 768px) {
+    #page {
+        position: relative;
+        margin: 20px;
+        width: auto;
+    }
+}
 
 
 
