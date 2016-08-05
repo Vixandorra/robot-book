@@ -943,7 +943,6 @@ main {
     float: left;
     border: 1px solid white;
     box-shadow: 0 0 5px 1px lightgray;
-
     background: #fffeee;
 }
 
@@ -977,7 +976,21 @@ main {
         margin: 0 0 30px;
         width: auto;
     }
+
 }
+
+@media screen and (max-width: 1200px) {
+    .gallery .gallery-block-1 .gallery-list-1 li:nth-child(odd),
+    .gallery .gallery-block-2 .gallery-list-2 li:nth-child(odd) {
+        transform: rotate(10deg);
+    }
+
+    .gallery .gallery-block-1 .gallery-list-1 li:nth-child(odd),
+    .gallery .gallery-block-2 .gallery-list-2 li:nth-child(odd) {
+        transform: rotate(10deg);
+    }
+}
+
 @media screen and (min-width: 1200px) {
 
     .slide-block, .gallery {
