@@ -315,7 +315,7 @@ main {
     margin-bottom: 40px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1200px) {
     .article {
         width: 46.354167%;
         margin-right: 0.0520833%;
@@ -415,7 +415,7 @@ main {
     width: 62.88888899%; /* 566 / 900 */
 }
 
-@media screen and (min-width: 960px), screen and (max-width: 768px) {
+@media screen and (min-width: 1200px), screen and (max-width: 768px) {
     .article .article-content article {
         position: relative;
         width: 100%;
@@ -565,7 +565,7 @@ main {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 960px), screen and (max-width: 768px) {
+@media screen and (min-width: 1200px), screen and (max-width: 768px) {
     .article .article-content .entries {
         position: relative;
         width: 100%;
@@ -661,7 +661,7 @@ main {
     z-index: 600;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1200px) {
     .slide-block {
         float: right;
         width: 46.354167%; /* 445/960 */
@@ -811,7 +811,7 @@ main {
     margin-top: 40px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1200px) {
     .gallery {
         position: relative;
         display: inline-block;
@@ -978,7 +978,7 @@ main {
         width: auto;
     }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1200px) {
 
     .slide-block, .gallery {
         margin: 0 3% 30px auto;
