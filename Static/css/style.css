@@ -980,14 +980,20 @@ main {
 }
 
 @media screen and (max-width: 1200px) {
-    .gallery .gallery-block-1 .gallery-list-1 li:nth-child(odd),
-    .gallery .gallery-block-2 .gallery-list-2 li:nth-child(odd) {
-        transform: rotate(10deg);
+    .gallery .gallery-block-1 .gallery-list-1,
+    .gallery .gallery-block-2 .gallery-list-2 {
+        width: 70%;
+        margin: 5% 15%;
     }
 
     .gallery .gallery-block-1 .gallery-list-1 li:nth-child(odd),
-    .gallery .gallery-block-2 .gallery-list-2 li:nth-child(odd) {
+    .gallery .gallery-block-2 .gallery-list-2 li:nth-child(even) {
         transform: rotate(10deg);
+    }
+
+    .gallery .gallery-block-1 .gallery-list-1 li:nth-child(even),
+    .gallery .gallery-block-2 .gallery-list-2 li:nth-child(odd) {
+        transform: rotate(-10deg);
     }
 }
 
