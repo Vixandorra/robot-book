@@ -921,6 +921,14 @@ main {
     }
 }
 
+@media screen and (max-width: 960px) {
+    .gallery .gallery-block-1 .head-block-1,
+    .gallery .gallery-block-2 .head-block-2 {
+        margin-left: 0px;
+        font-size: 1.5625em; /* 25 */
+    }
+}
+
 .gallery .gallery-block-1 .head-block-1 h1,
 .gallery .gallery-block-2 .head-block-2 h1 {
     margin-left: 3.33333333%; /* 15 / 450 */
@@ -975,6 +983,19 @@ main {
      .head, .article, .slide-block, .gallery {
         margin: 0 0 30px;
         width: auto;
+    }
+
+    .gallery .gallery-block-1 .gallery-list-1,
+    .gallery .gallery-block-2 .gallery-list-2 {
+        width: 70%;
+        margin: 5% 15%;
+        /* column-count: 2; */
+    }
+
+    .gallery .gallery-block-1 .gallery-list-1 li
+    .gallery .gallery-block-2 .gallery-list-2 li {
+        transform: none;
+
     }
 
 }
