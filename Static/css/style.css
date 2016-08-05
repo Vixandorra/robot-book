@@ -978,8 +978,28 @@ main {
     word-wrap: break-word;
 }
 
+@media screen and (max-width: 500px) {
+    .head, .article, .slide-block, .gallery {
+        margin: 0 0 20px;
+        width: auto;
+    }
 
-@media screen and (max-width: 768px) {
+    .gallery .gallery-block-1 .gallery-list-1,
+    .gallery .gallery-block-2 .gallery-list-2 {
+        width: 75%;
+        margin: 0% 12.5%;
+        /* column-count: 2; */
+    }
+
+    .gallery .gallery-block-1 .gallery-list-1 li,
+    .gallery .gallery-block-2 .gallery-list-2 li {
+        transform: none !important;
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width: 768px), screen and (min-width: 501px) {
      .head, .article, .slide-block, .gallery {
         margin: 0 0 30px;
         width: auto;
