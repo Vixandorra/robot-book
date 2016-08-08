@@ -482,6 +482,7 @@ main {
     width: 48.7341772%;
     background: #C52618;
     border-radius: 5px;
+    margin: 1%;
 
  }
 
@@ -493,6 +494,7 @@ main {
 .article .article-content .figure p img {
     display: block;
     width: auto;
+    margin: 0 auto;
 }
 
 .article .article-content article .body-article {
