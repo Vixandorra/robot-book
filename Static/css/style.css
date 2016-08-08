@@ -517,7 +517,7 @@ main {
 }
 
 .article .article-content article .body-article .text .reference {
-    float: right;
+    float: left;
     color: #666;
     width: 100%;
     text-align: left;
@@ -526,8 +526,11 @@ main {
 }
 
 
-@media screen and (min-width: 1200px), screen and (max-width: 768px) {
-    float: left;
+@media screen and (max-width: 768px) {
+    .article .article-content article .body-article .text .reference {
+        float: right;
+        text-align: right;
+    }
 }
 
 
