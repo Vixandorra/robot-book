@@ -310,7 +310,7 @@ main {
     z-index: 120;
     /* margin-top: 80px;
     margin-right: 2%;*/
-    background: white ;
+    background: white;
     text-align: left;
     margin-bottom: 40px;
 }
@@ -320,6 +320,12 @@ main {
         width: 46.354167%;
         margin-right: 0.0520833%;
         margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .article {
+    background: white url("../pics/body.gif") 70% 0% repeat-y;
     }
 }
 
