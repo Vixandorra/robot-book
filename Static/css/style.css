@@ -517,11 +517,19 @@ main {
 }
 
 .article .article-content article .body-article .text .reference {
-    float: left;
+    float: right;
     color: #666;
+    width: 100%;
     text-align: left;
     min-height: 40px;
+    border-top: 1px solid lightgray;
 }
+
+
+@media screen and (min-width: 1200px), screen and (max-width: 768px) {
+    float: left;
+}
+
 
 .article .article-content article .body-article .text .reference a {
     color: #C52618;
