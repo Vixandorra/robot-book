@@ -323,11 +323,7 @@ main {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .article {
-    background: white url("../pics/body.gif") 70% 0% repeat-y;
-    }
-}
+
 
 .article::after {
     content: " ";
@@ -346,7 +342,11 @@ main {
     opacity: 0.2;
 }
 
-
+@media screen and (max-width: 1200px) {
+    .article {
+        background: white url("../pics/blog-bg.png") repeat-y 63.11111111% 0;
+    }
+}
 
 .article  main p, .article main h1  {
     padding: 10px;
