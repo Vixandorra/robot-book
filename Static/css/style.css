@@ -310,7 +310,7 @@ main {
     z-index: 120;
     /* margin-top: 80px;
     margin-right: 2%;*/
-    background: white;
+    background: white ;
     text-align: left;
     margin-bottom: 40px;
 }
@@ -528,11 +528,18 @@ main {
 
 @media screen and (max-width: 768px) {
     .article .article-content article .body-article .text .reference {
+        float: left;
+        text-align: left;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .article .article-content article .body-article .text .reference {
         float: right;
         text-align: right;
     }
 }
-
 
 .article .article-content article .body-article .text .reference a {
     color: #C52618;
@@ -615,7 +622,7 @@ main {
     /**/list-style: url(../pics/lines.png) inside;
 }
 
-@media screen and (min-width: 960px), screen and (max-width: 768px) {
+@media screen and (min-width: 1200px), screen and (max-width: 768px) {
     .article .article-content .entries ol {
         column-count: 2;
     }
