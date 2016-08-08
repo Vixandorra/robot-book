@@ -487,7 +487,7 @@ main {
  }
 
 .article .article-content .figure p {
-    margin: 5px;
+    margin: 0 5px auto;
     overflow: hidden;
 }
 
@@ -498,17 +498,16 @@ main {
 }
 
 .article .article-content article .body-article {
-    min-height: 600px;
+    min-height: 930px;
     padding: 40px 8.480565%;
 }
 
 .article .article-content article .body-article .text {
-    border-bottom: 1px solid lightgray;
     min-height: 300px;
 }
 
 .article .article-content article .body-article .text p,
-.article .article-content article .body-article .reference {
+.article .article-content article .body-article .text .reference {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -521,7 +520,7 @@ main {
     float: left;
     color: #666;
     text-align: left;
-    min-height: 20px;
+    min-height: 40px;
 }
 
 .article .article-content article .body-article .text .reference a {
