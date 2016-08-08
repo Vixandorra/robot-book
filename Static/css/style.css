@@ -515,41 +515,41 @@ main {
     font-size: 18px;
 }
 
-.article .article-content article .body-article .reference {
+.article .article-content article .body-article .text .reference {
     float: left;
     color: #666;
     text-align: left;
     min-height: 20px;
 }
 
-.article .article-content article .body-article .reference a {
+.article .article-content article .body-article .text .reference a {
     color: #C52618;
 }
 
-.article .article-content article .body-article .reference p,
-.article .article-content article .body-article .reference li a:hover {
+.article .article-content article .body-article .text .reference p,
+.article .article-content article .body-article .text .reference li a:hover {
     color: #666;
 }
 
-.article .article-content article .body-article .reference .reference-list ul,
-.article .article-content article .body-article .reference .reference-list ul li,
-.article .article-content article .body-article .reference .reference-list p {
+.article .article-content article .body-article .text .reference .reference-list ul,
+.article .article-content article .body-article .text .reference .reference-list ul li,
+.article .article-content article .body-article .text .reference .reference-list p {
     display: inline-block;
 }
 
-.article .article-content article .body-article .reference .reference-list ul li {
+.article .article-content article .body-article .text .reference .reference-list ul li {
     padding: 5px;
 }
 
-.article .article-content article .body-article .reference li a {
+.article .article-content article .body-article .text .reference li a {
     background-color: #eee;
     padding: 5px;
     border-radius: 5px;
     color: #999;
 }
 
-.article .article-content article .body-article .reference .reference-list ul li:nth-child(1):after,
-.article .article-content article .body-article .reference .reference-list ul li:nth-child(2):after {
+.article .article-content article .body-article .text .reference .reference-list ul li:nth-child(1):after,
+.article .article-content article .body-article .text .reference .reference-list ul li:nth-child(2):after {
     content: "\2022";
     padding-left: 10px;
 }
@@ -987,6 +987,7 @@ main {
     .gallery .gallery-block-1 .gallery-list-1,
     .gallery .gallery-block-2 .gallery-list-2 {
         width: 75%;
+        margin: 0% 12.5%;
         margin: 0% 12.5%;
         /* column-count: 2; */
     }
