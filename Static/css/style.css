@@ -137,6 +137,7 @@ header .head {
     display: block;
     position: relative;
     min-height: 100px;
+    z-index: 999;
     /*margin-top: 30px;*/
 }
 
@@ -180,7 +181,31 @@ header .head {
     opacity: 0.5;
 }
 
-.head .logo-image a img {
+@media screen and (max-width: 1200px) {
+    .head .logo-image::after {
+        content: " ";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        border: 0px solid transparent;
+        -webkit-box-shadow: 1px 1px 0 0 #C52618 ,   2px 2px 0 0 #C52618,
+                            3px 3px 0 0 #C52618,    4px 4px 0 0 #C52618,
+                            5px 5px 0 0 #C52618,    6px 6px 0 0 #C52618,
+                            7px 7px 0 0 #C52618,    8px 8px 0 0 #C52618,
+                            9px 9px 0 0 #C52618,    10px 10px 0 0 #C52618;
+
+        box-shadow: 1px 1px 0 0 #C52618,   2px 2px 0 0 #C52618,
+                    3px 3px 0 0 #C52618,   4px 4px 0 0 #C52618,
+                    5px 5px 0 0 #C52618,    6px 6px 0 0 #C52618,
+                    7px 7px 0 0 #C52618,    8px 8px 0 0 #C52618,
+                    9px 9px 0 0 #C52618,    10px 10px 0 0 #C52618;
+        opacity: 0.5;
+    }
+}
+
+    .head .logo-image a img {
     width: 70.5882353%;
     height: auto;
     margin-top: 10%;
