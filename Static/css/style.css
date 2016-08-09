@@ -263,6 +263,35 @@ header .head {
     opacity: 0.2;
 }
 
+@media screen and (max-width: 768px) {
+    .head .menu::after {
+        content: " ";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border: 0px solid transparent;
+        -webkit-box-shadow:
+                -1px 1px 0 #5E140D ,   -2px 2px 0 #5E140D,
+                -3px 3px 0 #5E140D,    -4px 4px 0 #5E140D,
+                -5px 5px 0 #5E140D,    -6px 6px 0 #5E140D,
+                -7px 7px 0 #5E140D,    -8px 8px 0 #5E140D,
+                -9px 9px 0 #5E140D,    -10px 10px 0 #5E140D;
+
+        box-shadow:
+                -1px 1px 0 #5E140D,    -2px 2px 0 #5E140D,
+                -3px 3px 0 #5E140D,    -4px 4px 0 #5E140D,
+                -5px 5px 0 #5E140D,    -6px 6px 0 #5E140D,
+                -7px 7px 0 #5E140D,    -8px 8px 0 #5E140D,
+               -9px 9px 0 #5E140D,     -10px 10px 0 #5E140D;
+
+        opacity: 0.2;
+    }
+
+}
+
+
 .head .menu ul {
     width: 60%;
     margin-left: 20%;
