@@ -785,11 +785,18 @@ main {
     }
 }
 
-.slide-text p {
+.slide-text .text {
+    position: relative;
+    float: left;
+    width: 90%;
+    margin: 5%;
+}
+
+.slide-text .text p {
     position: relative;
     float: left;
     line-height: 20px;
-    width: 90%;
+    width: 100%;
 
 }
 
