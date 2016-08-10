@@ -761,7 +761,7 @@ main {
     width: 100%;
     background-color: black;
     min-height: 30px;
-    padding: 10px 50px 10px 20px;
+    padding: 10px;
     font-size: 25px;
     color: white;
     text-align: left;
@@ -776,6 +776,12 @@ main {
         font: normal 1.5em Calibri, Candara,
         Segoe, "Segoe UI", Optima, Arial,
         Helvetica, sans-serif; /* 24px / 16px */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .slide-text h1 {
+        font-size: 2.6em; /* 24px / 16px */
     }
 }
 
