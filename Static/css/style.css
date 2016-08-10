@@ -161,9 +161,14 @@ header .head {
     float: left;
     text-align: center;
     width: 18.8888889%; /* 170px */
-    min-height: 100px;
     background: url("../pics/logo-bg.jpg")  no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .head .logo-image{
+        height: 50%;
+    }
 }
 
 .head .logo-image::after {
