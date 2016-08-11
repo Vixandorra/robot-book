@@ -389,8 +389,6 @@ main {
     }
 }
 
-
-
 .article::after {
     content: " ";
     width: 100%;
