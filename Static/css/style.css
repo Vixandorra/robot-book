@@ -303,6 +303,21 @@ header .head {
 
 }
 
+@media screen and (min-width: 1200px) {
+    .head {
+        height: 115px;
+    }
+
+    .head .logo-image {
+        height: 140%;
+    }
+
+    .head .menu {
+        height: 50%;
+        margin-top: -12%;
+    }
+}
+
 
 .head .menu ul {
     width: 60%;
