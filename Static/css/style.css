@@ -250,7 +250,7 @@ header .head {
 
 
 .head .menu {
-    position: absolute;
+    position: relative;
     top: -55px;
     display: inline-block;
     z-index: 80;
@@ -367,6 +367,7 @@ header .head {
 @media screen and (max-width: 520px) {
     .head .menu ul {
         column-count: 2;
+        font-size: 0.5em;
     }
 
     .head .menu ul li {
