@@ -789,16 +789,20 @@ main {
     position: relative;
     float: left;
     width: 90%;
-    margin: 5%;
+    margin: 3% 5%;
 }
 
 .slide-text .text p {
     position: relative;
     float: left;
-    line-height: 20px;
+    line-height: 1.25em;
     width: 100%;
-
 }
+
+.slide-text .text p:first-child {
+    padding-bottom: 5%;
+}
+
 
 .slide-block .slides {
     display: inline-block;
@@ -1193,7 +1197,7 @@ main {
 
 @media screen and (min-width: 1200px) {
 
-    .slide-block, .gallery {
+    .head, .slide-block, .gallery {
         margin: 0 3% 30px auto;
     }
 }
