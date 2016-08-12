@@ -1191,7 +1191,7 @@ main {
 
 @media screen and (min-width: 1200px) {
 
-    .slide-block, .gallery {
+    .head, .slide-block, .gallery {
         margin: 0 3% 30px auto;
     }
 }
