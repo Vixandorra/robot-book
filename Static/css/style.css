@@ -754,10 +754,10 @@ main {
 .slide-text h1 {
     position: relative;
     float: left;
-    width: 90%;
+    width: 100%;
     background-color: black;
     min-height: 30px;
-    padding: 3%;
+    padding: 10px;
     font-size: 25px;
     color: white;
     text-align: left;
@@ -1199,7 +1199,7 @@ main {
 @media screen and (max-width: 1200px) {
 
     .slide-block {
-        margin: 15px auto;
+        margin: 30px auto;
     }
 }
 
