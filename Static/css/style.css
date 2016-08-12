@@ -306,8 +306,7 @@ header .head {
 
 .head .menu ul {
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0.5em 20%;
 }
 
 
@@ -1194,12 +1193,14 @@ main {
     .head, .slide-block, .gallery {
         margin: 0 3% 30px auto;
     }
+
+
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1200px) {
 
-    .head, .slide-block, .gallery {
-        margin: 0 3% 30px auto;
+    .head, .slide-block {
+        margin: 30px auto;
     }
 }
 
