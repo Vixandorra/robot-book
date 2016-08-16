@@ -724,7 +724,7 @@ main {
     position: relative;
     display: inline-block;
     width: 70%;
-    min-height: 100px;
+    min-height: 400px;
     background-color: white;
     overflow: hidden;
     z-index: 600;
@@ -742,7 +742,7 @@ main {
     position: relative;
     /*display: inline-block;*/
     width: 70%;
-    float: left;
+    height: 60%;
     min-height: 200px;
     background-color: white;
     overflow: hidden;
@@ -802,15 +802,14 @@ main {
     padding: 0;
     position: relative;
     float: left;
-    width: 500%;
-    min-height: 100px;
-    overflow: hidden;
+    width: 100%;
+    height: 40%;
+    min-height: 180px;
 }
 
 .slide-block .slides .slide-item {
-    float: left;
-    width: 20%;
-    margin: 0;
+    position: absolute;
+    top: 0;
 }
 
 .slide-block .slides .slide-item img {
@@ -819,6 +818,8 @@ main {
     width: 100%;
     margin-top: -35px;
 }
+
+
 
 .slide-block .slides .slide-item p {
     /*content: "Fear the robot. Fear it.";*/
@@ -878,6 +879,15 @@ main {
 .slide-block .slides .slide-item .arrow-box .arrow-next:hover {
     cursor: pointer;
 }
+
+.slide-block .slides .slide-item:not(:target) {
+    visibility: hidden;
+}
+
+.slide-block .slides .slide-item:target {
+    visibility: visible;
+}
+
 
 
 
