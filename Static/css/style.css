@@ -726,7 +726,6 @@ main {
     width: 70%;
     height: 480px;
     background-color: white;
-    overflow: hidden;
     z-index: 600;
 }
 
@@ -883,6 +882,20 @@ main {
 
 .slide-block .slides .slide-item:target {
     visibility: visible;
+}
+
+@media screen and (max-width: 1200px) {
+    .slide-block .slides .slide-item .arrow-box {
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        margin-left: -2.2%;
+        float: left;
+    }
+
+    .slide-text h1 {
+        margin-left: -10px;
+    }
 }
 
 
