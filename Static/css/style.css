@@ -724,7 +724,7 @@ main {
     position: relative;
     display: inline-block;
     width: 70%;
-    min-height: 400px;
+    height: 480px;
     background-color: white;
     overflow: hidden;
     z-index: 600;
@@ -744,9 +744,6 @@ main {
     width: 70%;
     height: 60%;
     min-height: 200px;
-    background-color: white;
-    overflow: hidden;
-    margin-top: -25px;
     text-align: left;
 }
 
@@ -754,10 +751,10 @@ main {
 .slide-text h1 {
     position: relative;
     float: left;
-    width: 100%;
+    width: 95%;
     background-color: black;
     min-height: 30px;
-    padding: 10px;
+    padding: 2.5%;
     font-size: 25px;
     color: white;
     text-align: left;
