@@ -231,11 +231,15 @@ header .head {
     }
 }
 
-@media screen and (min-width: 960px) {
-    .head {
-        min-height: 150px;
+@media screen and (min-width: 1200px) {
+    .head .logo-image a img {
+        padding: 58px 14.8148% 48px;
     }
+
+
 }
+
+
 
 
 .head .menu {
@@ -411,6 +415,8 @@ main {
 }
 
 @media screen and (min-width: 1200px), screen and (max-width: 768px) {
+
+
     .article {
         background: white;
     }
@@ -781,7 +787,7 @@ main {
     position: relative;
     float: left;
     width: 90%;
-    margin: 5%;
+    margin: 2.5%;
 }
 
 .slide-text .text p {
@@ -789,6 +795,7 @@ main {
     float: left;
     line-height: 20px;
     width: 100%;
+    margin-bottom: 1.5%;
 
 }
 
@@ -894,7 +901,13 @@ main {
     }
 
     .slide-text h1 {
-        margin-left: -10px;
+        margin-left: -1.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-block .slide-text {
+        width: 101.5%;
     }
 }
 
